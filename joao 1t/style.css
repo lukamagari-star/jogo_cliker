@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #ffc400;
+    color: #333;
+}
+
+#alvo {
+    width: 120px;
+    height: 120px;
+    background-color: #48c6e6;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    margin: 20px 0;
+    line-height: 120px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    user-select: none;
+    transition: transform 0.1s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#alvo:active {
+    transform: scale(0.95);
+}
+
+#pontos {
+    color: #27ae60;
+    font-size: 1.5rem;
+}
